@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.item__name {
+  text-align: center;
+  margin: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.item__info {
+  text-align: center;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.item__button {
+  margin-left: 2rem;
+  padding: 0.3rem;
+}
+
+.quantity {
+  margin-right: 3rem;
+}
+
+.price {
+  margin-right: 3rem;
+}
